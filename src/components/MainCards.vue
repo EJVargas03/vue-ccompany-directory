@@ -1,8 +1,8 @@
 <script setup>
-    import useAPI from '@/composables/useAPI'
-    import MainCardsSingle from '@/components/MainCardsSingle.vue'
+  import useAPI from '@/composables/useAPI'
+  import MainCardsSingle from '@/components/MainCardsSingle.vue'
 
-    const { employees } = useAPI()
+  const { employees } = useAPI()
 </script>
 
 <template>
@@ -17,7 +17,7 @@
 </template>
 
 <style scoped lang="postcss">
-    .sub-wrapper {
-        @apply grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4;
-    }
+  .sub-wrapper {
+    @apply grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4;
+  }
 </style>

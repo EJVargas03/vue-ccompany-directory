@@ -1,5 +1,4 @@
 <script setup>
-  import { ref } from 'vue'
   import useAPI from '@/composables/useAPI';
 
   const { activePage, pages, getEmployees } = useAPI()
